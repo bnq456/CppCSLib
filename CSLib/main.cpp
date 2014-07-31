@@ -1,6 +1,8 @@
 #include <QCoreApplication>
 #include <iostream>
 #include <memory>
+#include "classa42.h"
+#include "Func52.h"
 using namespace std;
 
 class ClassA {
@@ -10,11 +12,9 @@ class ClassA {
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
+    SetTest();
 
-    auto_ptr<ClassA> ptr1(new ClassA);
-    auto_ptr<ClassA> ptr2(new ClassA);
 
-    ptr2 = ptr1;
 
     return a.exec();
 }

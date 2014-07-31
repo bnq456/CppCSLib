@@ -16,3 +16,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp
+
+HEADERS += \
+    classa42.h \
+    Func52.h
