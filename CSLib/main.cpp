@@ -12,9 +12,6 @@ class ClassA {
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    SetTest();
-
-
-
+    AlgoTest1();
     return a.exec();
 }

@@ -211,7 +211,9 @@ debug\main.obj: ..\CSLib\main.cpp ..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\Q
 		..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\QtCore\qcontainerfwd.h \
 		..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\QtCore\qisenum.h \
 		..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\QtCore\qobject_impl.h \
-		..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\QtCore\qeventloop.h
+		..\..\Qt\Qt5.3.1\5.3\msvc2013_opengl\include\QtCore\qeventloop.h \
+		..\CSLib\classa42.h \
+		..\CSLib\Func52.h
 
 ####### Install
 
