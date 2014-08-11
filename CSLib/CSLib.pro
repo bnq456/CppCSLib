@@ -19,4 +19,6 @@ SOURCES += main.cpp
 
 HEADERS += \
     classa42.h \
-    Func52.h
+    Func52.h \
+    Cppcommon06.h \
+    Func55.h

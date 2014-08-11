@@ -3,6 +3,8 @@
 #include <memory>
 #include "classa42.h"
 #include "Func52.h"
+#include "Cppcommon06.h"
+#include "Func55.h"
 using namespace std;
 
 class ClassA {
@@ -12,6 +14,11 @@ class ClassA {
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    AlgoTest1();
+    iouter1();
+
+
+
+
+
     return a.exec();
 }
