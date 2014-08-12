@@ -15,10 +15,8 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += \
+    stl/transform1.cpp \
+    stl/prime1.cpp
 
-HEADERS += \
-    classa42.h \
-    Func52.h \
-    Cppcommon06.h \
-    Func55.h
+HEADERS +=
