@@ -17,6 +17,7 @@ TEMPLATE = app
 
 SOURCES += \
     stl/transform1.cpp \
-    stl/prime1.cpp
+    stl/prime1.cpp \
+    euler/e001.cpp
 
 HEADERS +=

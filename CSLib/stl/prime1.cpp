@@ -35,7 +35,7 @@ bool isPrime (int number)
     return divisor == 1;
 }
 
-int main()
+int main2()
 {
     list<int> coll;
 
@@ -56,4 +56,6 @@ int main()
         // not found
         cout << "no prime number found" << endl;
     }
+
+    return 0;
 }
