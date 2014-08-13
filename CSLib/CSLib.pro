@@ -18,6 +18,9 @@ TEMPLATE = app
 SOURCES += \
     euler/e001.cpp \
     stl/P121prime.cpp \
-    stl/P120transform.cpp
+    stl/P120transform.cpp \
+    stl/P123sort1.cpp \
+    euler/e002.cpp \
+    stl/foreach2.cpp
 
 HEADERS +=

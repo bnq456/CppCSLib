@@ -1,12 +1,9 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference"
- * by Nicolai M. Josuttis, Addison-Wesley, 1999
+/* 算法的辅助函数：二元判断式！
  *
- * (C) Copyright Nicolai M. Josuttis 1999.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
+ * find_if (, , ,func)
+ *
+ *
+ *
  */
 #include <iostream>
 #include <string>
@@ -62,7 +59,7 @@ bool personSortCriterion (const Person& p1, const Person& p2)
             p1.firstname()<p2.firstname());
 }
 
-int main()
+int mainp123()
 {
     // create some persons
     Person p1("nicolai","josuttis");
@@ -99,5 +96,7 @@ int main()
     for (pos = coll.begin(); pos != coll.end(); ++pos) {
         cout << *pos << endl;
     }
+
+    return 0;
 }
 
