@@ -21,6 +21,9 @@ SOURCES += \
     stl/P120transform.cpp \
     stl/P123sort1.cpp \
     euler/e002.cpp \
-    stl/foreach2.cpp
+    stl/P125foreach2.cpp \
+    stl/P132fo1.cpp \
+    stl/P128add1.cpp \
+    euler/e003.cpp
 
 HEADERS +=

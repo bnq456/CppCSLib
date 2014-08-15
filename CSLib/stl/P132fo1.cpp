@@ -1,21 +1,21 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference"
- * by Nicolai M. Josuttis, Addison-Wesley, 1999
+/* 预先定义的仿函数
  *
- * (C) Copyright Nicolai M. Josuttis 1999.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
+ * find_if (, , ,func)
+ *
+ *
+ *
  */
 #include <iostream>
 #include <set>
 #include <deque>
 #include <algorithm>
+#include <iterator>
+
+
 #include "print.hpp"
 using namespace std;
 
-int main()
+int mainpp123()
 {
     set<int,greater<int> > coll1;
     deque<int> coll2;
@@ -47,4 +47,5 @@ int main()
                 coll2.end());
 
     PRINT_ELEMENTS(coll2,"removed:     ");
+    return 0;
 }

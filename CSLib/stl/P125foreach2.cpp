@@ -21,7 +21,7 @@ class PrintInt {
     }
 };
 
-int main()
+int main125()
 {
     vector<int> coll;
 
@@ -34,4 +34,6 @@ int main()
     for_each (coll.begin(), coll.end(),    // range
               PrintInt());                 // operation
     cout << endl;
+
+    return 0;
 }
