@@ -24,6 +24,11 @@ SOURCES += \
     stl/P125foreach2.cpp \
     stl/P132fo1.cpp \
     stl/P128add1.cpp \
-    euler/e003.cpp
+    euler/e003.cpp \
+    QT/Memory.cpp \
+    QT/ptr.cpp \
+    QT/Type.cpp
 
-HEADERS +=
+HEADERS += \
+    MS_files/1/Sales_item.h \
+    euler/prime.h
