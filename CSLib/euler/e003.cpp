@@ -8,11 +8,10 @@
 #include "prime.h"
 using namespace std;
 
-int main()
+int main003()
 {
-    vector<int> primes;
-    primes.
-
+    vector<int> primes(10);
+    cout<< primes.at(11);
     cout<< primes.capacity();
 
 

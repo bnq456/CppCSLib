@@ -12,9 +12,10 @@
 #include <deque>
 #include <string>
 #include <algorithm>
+#include <iterator>
 using namespace std;
 
-int main()
+int maind11()
 {
     // create empty deque of strings
     deque<string> coll;
@@ -44,4 +45,6 @@ int main()
     // print elements separated by newlines
     copy (coll.begin(), coll.end(),
           ostream_iterator<string>(cout,"\n"));
+
+    return 0;
 }

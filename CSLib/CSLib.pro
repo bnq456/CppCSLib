@@ -27,7 +27,10 @@ SOURCES += \
     euler/e003.cpp \
     QT/Memory.cpp \
     QT/ptr.cpp \
-    QT/Type.cpp
+    QT/Type.cpp \
+    cont/vector1.cpp \
+    cont/deque1.cpp \
+    cont/list1.cpp
 
 HEADERS += \
     MS_files/1/Sales_item.h \

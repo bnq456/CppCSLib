@@ -11,6 +11,7 @@
 #include <iostream>
 #include <list>
 #include <algorithm>
+#include <iterator>
 using namespace std;
 
 void printLists (const list<int>& l1, const list<int>& l2)

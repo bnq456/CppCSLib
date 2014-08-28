@@ -1,20 +1,11 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference"
- * by Nicolai M. Josuttis, Addison-Wesley, 1999
- *
- * (C) Copyright Nicolai M. Josuttis 1999.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
- */
 #include <iostream>
 #include <vector>
 #include <string>
+#include <iterator>
 #include <algorithm>
 using namespace std;
 
-int main()
+int mainvvv1()
 {
     // create empty vector for strings
     vector<string> sentence;
@@ -30,8 +21,7 @@ int main()
     sentence.push_back("?");
 
     // print elements separated with spaces
-    copy (sentence.begin(), sentence.end(),
-          ostream_iterator<string>(cout," "));
+    copy (sentence.begin(), sentence.end(),ostream_iterator<string>(cout," "));
     cout << endl;
 
     // print ``technical data''
@@ -43,19 +33,19 @@ int main()
     swap (sentence[1], sentence[3]);
 
     // insert element "always" before element "?"
-    sentence.insert (find(sentence.begin(),sentence.end(),"?"),
-                     "always");
+    sentence.insert (find(sentence.begin(),sentence.end(),"?"),"always");
 
     // assign "!" to the last element
     sentence.back() = "!";
     
     // print elements separated with spaces
-    copy (sentence.begin(), sentence.end(),
-          ostream_iterator<string>(cout," "));
+    copy (sentence.begin(), sentence.end(),ostream_iterator<string>(cout," "));
     cout << endl;
 
     // print ``technical data'' again
     cout << "  max_size(): " << sentence.max_size() << endl;
     cout << "  size():     " << sentence.size()     << endl;
     cout << "  capacity(): " << sentence.capacity() << endl;
+
+    return 0;
 }
